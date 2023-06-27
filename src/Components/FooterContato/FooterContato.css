@@ -1,0 +1,27 @@
+footer {
+    margin-top: 250px;
+    margin-bottom: -20px;
+    align-items: center;
+    text-align: center;
+}
+
+.line-footer {
+    position: relative;
+    top: 1px;
+    margin: 0 auto;
+    width: 50%;
+    height: 1px;
+    background-image: linear-gradient(to right top, #ff9000, #ff4d39, #ff006f, #ec00ae, #8312eb);
+}
+
+footer h2 {
+    padding: 5px 0;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+.icon {
+    position: relative;
+    top: 5px;
+}

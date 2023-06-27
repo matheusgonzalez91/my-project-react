@@ -1,0 +1,61 @@
+section.projetos {
+    margin-top: 300px;
+    padding: 0 2%;
+}
+
+.total-projetos {
+    text-align: center;
+    margin-bottom: 150px;
+    font-size: 30px;
+}
+
+.total-projetos h2 {
+    font-size: 90px;
+}
+
+.flex-projetos {
+    display: flex;
+}
+
+.box-projetos {
+    width: 33.3%;
+    padding: 50px 2%;
+    background-color: rgb(39, 38, 38);
+    margin: 0 5px;
+    border-radius: 10px;
+    box-shadow: #ff9000 0px 44px 45px, #000000 0px -12px 30px, #000000 0px 4px 6px, #000000 0px 12px 13px, #000000 0px -3px 5px;
+}
+
+.box-projetos h2 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.box-projetos p {
+    position: relative;
+    top: 20px;
+    color: white;
+    padding: 5px 0;
+}
+
+.box-projetos a {
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    .flex-projetos {
+        display: block;
+    }
+
+    .box-projetos {
+        margin: 30px auto;
+        width: 70%;
+    }
+
+    .box-projetos p {
+        text-align: center;
+    }
+}

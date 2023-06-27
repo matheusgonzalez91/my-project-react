@@ -1,0 +1,25 @@
+.toggle {
+    top: -10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 2rem;
+    border-color: linear-gradient(to right top, #ff9000, #ff4d39, #ff006f, #ec00ae, #8312eb);
+    border: 3px solid;
+    border-radius: 1rem;
+    position: relative;
+    padding: 2px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.toggle>* {
+    width: 1rem;
+    height: 1rem;
+    color: linear-gradient(to right top, #ff9000, #ff4d39, #ff006f, #ec00ae, #8312eb);
+}
+
+.t-button {
+    border-radius: 100%;
+    background-image: linear-gradient(to right top, #ff9000, #ff4d39, #ff006f, #ec00ae, #8312eb);
+    position: absolute;
+}

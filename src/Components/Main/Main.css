@@ -1,0 +1,56 @@
+.matheus {
+    margin: 120px 0;
+    text-align: center;
+    overflow-x: hidden;
+
+}
+
+.matheus h2 {
+    font-size: 70px;
+    letter-spacing: 3px;
+}
+
+button {
+    margin: 0 auto;
+    width: 230px;
+    height: 50px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    background-image: linear-gradient(to right top, #ff9000, #ff4d39, #ff006f, #ec00ae, #8312eb);
+}
+
+.image-icon {
+    position: relative;
+    top: 15px;
+    width: 40px;
+    margin: 0 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .matheus h2 {
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+
+    .image-icon {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .matheus {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        margin: 5px auto;
+    }
+}

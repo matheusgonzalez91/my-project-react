@@ -1,0 +1,74 @@
+section.sobre {
+    margin: 260px 0;
+    padding: 0 2%;
+    overflow: hidden;
+}
+
+section.sobre h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.line {
+    position: relative;
+    top: 35px;
+    width: 190px;
+    rotate: 270deg;
+    height: 3px;
+    background-image: linear-gradient(to right top, #ff9000, #ff4d39, #ff006f, #ec00ae, #8312eb);
+}
+
+.sobre-mim {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+}
+
+.minha-historia {
+    width: 50%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.minha-historia p {
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: bold;
+}
+
+.habilidades {
+    width: 50%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.habilidades p {
+    line-height: 29px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .sobre-mim {
+        display: block;
+    }
+
+    .minha-historia {
+        margin: 30px auto;
+    }
+
+    .habilidades {
+        margin: 30px auto;
+    }
+
+    .line {
+        position: relative;
+        top: 10px;
+        width: 190px;
+        rotate: 0deg;
+        height: 3px;
+        margin: 0 auto;
+        background-image: linear-gradient(to right top, #ff9000, #ff4d39, #ff006f, #ec00ae, #8312eb);
+    }
+}
